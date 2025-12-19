@@ -7,10 +7,10 @@ import * as THREE from "three"
 
 
 const desktopWaypoints = [
-    { scrollProgress: 0, position: new THREE.Vector3(0, -1.9, -1), rotation: new THREE.Euler(0, -0, 0) },
-    { scrollProgress: 0.33, position: new THREE.Vector3(3, -0.7, -1), rotation: new THREE.Euler(0, -0.7, 0) },
-    { scrollProgress: 0.66, position: new THREE.Vector3(-5, 0, -1), rotation: new THREE.Euler(-0, 1, 0) },
-    { scrollProgress: 1, position: new THREE.Vector3(2, -1.3, -1), rotation: new THREE.Euler(0, -0.7, 0) },
+    { scrollProgress: 0, position: new THREE.Vector3(0, -1.9, 0), rotation: new THREE.Euler(0, -0, 0) },
+    { scrollProgress: 0.33, position: new THREE.Vector3(3, -0.7, 0), rotation: new THREE.Euler(0, -0.7, 0) },
+    { scrollProgress: 0.66, position: new THREE.Vector3(-5, 0, 0), rotation: new THREE.Euler(-0, 1, 0) },
+    { scrollProgress: 1, position: new THREE.Vector3(2, -2.3, 0), rotation: new THREE.Euler(0, -0.7, 0) },
 ]
 
 const mobileWaypoints = [

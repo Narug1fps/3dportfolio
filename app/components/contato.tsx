@@ -4,7 +4,7 @@ import { devilBreeze } from "../fonts"
 
 export default function Contato() {
     return (
-        <section id="contato" className="w-full min-h-screen relative flex items-center justify-center pb-20 overflow-hidden">
+        <section id="contato" className="w-full min-h-screen-[50vh] relative flex items-center text-white  justify-center pb-20 overflow-hidden">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
