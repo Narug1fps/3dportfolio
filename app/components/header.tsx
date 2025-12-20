@@ -16,11 +16,11 @@ export default function Header() {
   // Dynamic Styles based on theme
   const headerStyles = isHome
     ? "bg-black/20 backdrop-blur-md border-b border-white/10"
-    : "bg-black backdrop-blur-md border-b border-border/50"
+    : "bg-white backdrop-blur-md border-b border-border/50"
 
   const textStyles = isHome
     ? "text-white/80 hover:text-[#0091FF]"
-    : "text-foreground/70 hover:text-[#0091FF]"
+    : "text-black hover:text-[#0091FF]"
 
   const logoStyles = isHome
     ? "text-white"
