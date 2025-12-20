@@ -4,7 +4,7 @@ import { devilBreeze } from "../fonts"
 
 export default function Contato() {
     return (
-        <section id="contato" className="w-full min-h-screen-[50vh] relative flex items-center text-white  justify-center pb-20 overflow-hidden">
+        <section id="contato" className="w-full  relative flex items-center text-white  justify-center  overflow-hidden">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
@@ -69,7 +69,12 @@ export default function Contato() {
                                 <span className="text-foreground/80">@teste</span>
                             </div>
                         </div>
+                        <Link href="/contato" className="px-8 py-3   border border-[#0091FF] text-[#0091FF] hover:bg-[#0091FF] hover:text-white font-bold rounded-lg transition-colors duration-300">
+                            Entre em contato
+                        </Link>
                     </div>
+
+
 
                     {/* Right Column: 3D Placeholder */}
                     <div className="w-full h-[500px] md:h-[600px] relative flex items-center justify-center">

@@ -5,12 +5,11 @@ import { useFrame, useThree } from "@react-three/fiber"
 import { useRef, useState, useEffect } from "react"
 import * as THREE from "three"
 
-
 const desktopWaypoints = [
     { scrollProgress: 0, position: new THREE.Vector3(0, -1.9, 0), rotation: new THREE.Euler(0, -0, 0) },
     { scrollProgress: 0.33, position: new THREE.Vector3(3, -0.7, 0), rotation: new THREE.Euler(0, -0.7, 0) },
     { scrollProgress: 0.66, position: new THREE.Vector3(-5, 0, 0), rotation: new THREE.Euler(-0, 1, 0) },
-    { scrollProgress: 1, position: new THREE.Vector3(2, -2.3, 0), rotation: new THREE.Euler(0, -0.7, 0) },
+    { scrollProgress: 1, position: new THREE.Vector3(2, -1, 0), rotation: new THREE.Euler(0, -0.7, 0) },
 ]
 
 const mobileWaypoints = [
@@ -19,7 +18,7 @@ const mobileWaypoints = [
     { scrollProgress: 0.4, position: new THREE.Vector3(0, 0, -4), rotation: new THREE.Euler(-0.4, 0, 0) },
     { scrollProgress: 0.6, position: new THREE.Vector3(0, 0, -4), rotation: new THREE.Euler(0, 0, 0) },
     { scrollProgress: 0.7, position: new THREE.Vector3(0, -2, -4), rotation: new THREE.Euler(0.4, 0, 0) },
-    { scrollProgress: 1, position: new THREE.Vector3(0, -4.5, -4), rotation: new THREE.Euler(-0.4, 0, 0) },
+    { scrollProgress: 1, position: new THREE.Vector3(0, -4.3, -4), rotation: new THREE.Euler(-0.4, 0, 0) },
 
 ]
 

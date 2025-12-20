@@ -7,7 +7,7 @@ export default function Galeria() {
     const allProjects = Array.from({ length: 12 }, (_, i) => i + 1)
 
     return (
-        <div className="bg-[url(/bg.png)] h-screen w-full bg-[#0091FF]/10 m-0 p-0 text-sm font-2 overflow-x-hidden overflow-y-auto">
+        <div className="bg-[url(/bg.png)] m-0 p-0 h-screen w-full bg-[#0091FF]/10 m-0 p-0 text-sm font-2 overflow-x-hidden overflow-y-auto">
             <Header />
 
             <main className="container mx-auto px-4 py-32">
@@ -42,7 +42,17 @@ export default function Galeria() {
                         Voltar para Home
                     </Link>
                 </div>
+
             </main>
+            <footer className="backdrop-blur-xl bg-black/20 text-white py-6">
+                <div className="container mx-auto flex flex-col items-center gap-6">
+                    <p className="text-sm text-center">
+                        © {new Date().getFullYear()} Vitor Daltro. Todos os direitos reservados.
+                    </p>
+                </div>
+            </footer>
+
         </div>
+
     )
 }

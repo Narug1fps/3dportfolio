@@ -24,8 +24,8 @@ export default function Sobre() {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quasi placeat sint veritatis dolor quisquam consequuntur. Saepe doloremque corporis reprehenderit, quas mollitia nisi numquam voluptate ad doloribus ullam, ea eaque. Lorem
                         </p>
 
-                        <Link href="#contato" className="px-8 py-3 bg-[#0091FF] hover:bg-[#007acc] text-white font-bold rounded-lg transition-colors duration-300">
-                            Entre em contato
+                        <Link href="/sobre" className="px-8 py-3 bg-[#0091FF] hover:bg-[#007acc] text-white font-bold rounded-lg transition-colors duration-300">
+                            Mais sobre mim
                         </Link>
                     </div>
 

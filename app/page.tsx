@@ -25,7 +25,7 @@ export default function Home() {
       }}>
         <Canvas camera={{ position: [0, 0, 10], fov: 50 }}>
           <Suspense fallback={null}>
-            <ScrollControls pages={4} damping={0.25}>
+            <ScrollControls pages={4.14} damping={0.5}>
               {/* 3D content that animates with scroll */}
               <ambientLight intensity={2.5} />
               <directionalLight position={[5, 5, 5]} intensity={1} />
@@ -52,10 +52,17 @@ export default function Home() {
                   </div>
 
                   {/* Contato Section */}
-                  <div className="min-h-screen pointer-events-auto">
+                  <div className=" pointer-events-auto">
                     <Contato />
                   </div>
                 </div>
+                <footer className="w-full bg-black/40  backdrop-blur-md text-white/60  border-t border-white/5 pointer-events-auto">
+                  <div className="container mx-auto px-4 py-10">
+                    <p className="text-[10px] md:text-sm text-center uppercase tracking-widest">
+                      © {new Date().getFullYear()} Vitor Daltro. Todos os direitos reservados.
+                    </p>
+                  </div>
+                </footer>
               </Scroll>
             </ScrollControls>
           </Suspense>
