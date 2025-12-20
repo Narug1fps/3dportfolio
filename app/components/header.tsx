@@ -19,7 +19,7 @@ export default function Header() {
     : "bg-white backdrop-blur-md border-b border-border/50"
 
   const textStyles = isHome
-    ? "text-white/80 hover:text-[#0091FF]"
+    ? "text-black hover:text-[#0091FF]"
     : "text-black hover:text-[#0091FF]"
 
   const logoStyles = isHome
