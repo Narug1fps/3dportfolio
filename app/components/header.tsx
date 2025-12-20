@@ -23,8 +23,8 @@ export default function Header() {
     : "text-black hover:text-[#0091FF]"
 
   const logoStyles = isHome
-    ? "text-white"
-    : "text-foreground"
+    ? "text-black"
+    : "text-black"
 
   return (
     <header id="nav" className={`${headerStyles} top-0 left-0 right-0 z-[100] fixed
