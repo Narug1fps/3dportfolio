@@ -20,7 +20,7 @@ export default function Sobre() {
                             </div>
                         </div>
 
-                        <p className="text-foreground/80 md:text-lg max-w-lg leading-relaxed font-montserrat">
+                        <p className="text-black md:text-lg max-w-lg leading-relaxed font-montserrat">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quasi placeat sint veritatis dolor quisquam consequuntur. Saepe doloremque corporis reprehenderit, quas mollitia nisi numquam voluptate ad doloribus ullam, ea eaque. Lorem
                         </p>
 
