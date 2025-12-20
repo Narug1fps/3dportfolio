@@ -18,7 +18,7 @@ const mobileWaypoints = [
     { scrollProgress: 0.4, position: new THREE.Vector3(0, 0, -4), rotation: new THREE.Euler(-0.4, 0, 0) },
     { scrollProgress: 0.6, position: new THREE.Vector3(0, 0, -4), rotation: new THREE.Euler(0, 0, 0) },
     { scrollProgress: 0.7, position: new THREE.Vector3(0, -2, -4), rotation: new THREE.Euler(0.4, 0, 0) },
-    { scrollProgress: 1, position: new THREE.Vector3(0, -4.3, -4), rotation: new THREE.Euler(-0.4, 0, 0) },
+    { scrollProgress: 1, position: new THREE.Vector3(0, -3, -4), rotation: new THREE.Euler(-0.4, 0, 0) },
 
 ]
 

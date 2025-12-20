@@ -23,7 +23,7 @@ export default function Header() {
     : "text-foreground/70 hover:text-[#0091FF]"
 
   const logoStyles = isHome
-    ? "text-white"
+    ? "text-black"
     : "text-foreground"
 
   return (
@@ -32,7 +32,7 @@ export default function Header() {
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="flex items-center">
-            <Link href="/" className={`${logoStyles} text-xl md:text-2xl font-bold hover:text-[#0091FF] transition-all duration-300 tracking-tighter`}>
+            <Link href="/" className={`${logoStyles} text-xl md:text-2xl font-bold  hover:text-[#0091FF] transition-all duration-300 tracking-tighter`}>
               VITOR<span className="text-[#0091FF]">PHOTO</span>
             </Link>
           </div>

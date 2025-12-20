@@ -9,10 +9,21 @@ import ScrollAnimatedModel from "./components/ScrollAnimatedModel";
 import { Canvas } from "@react-three/fiber";
 import { ScrollControls, Scroll } from "@react-three/drei";
 
-import { Suspense } from "react";
+import { Suspense, useState, useEffect } from "react";
 import LoadingScreen from "./components/LoadingScreen";
 
 export default function Home() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  const pagesValue = isMobile ? 6 : 4.14;
+
   return (
     <>
       <LoadingScreen />
@@ -25,7 +36,7 @@ export default function Home() {
       }}>
         <Canvas camera={{ position: [0, 0, 10], fov: 50 }}>
           <Suspense fallback={null}>
-            <ScrollControls pages={4.14} damping={0.5}>
+            <ScrollControls key={isMobile ? "mobile" : "desktop"} pages={4.7} damping={0.5}>
               {/* 3D content that animates with scroll */}
               <ambientLight intensity={2.5} />
               <directionalLight position={[5, 5, 5]} intensity={1} />
