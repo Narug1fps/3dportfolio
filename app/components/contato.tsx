@@ -24,25 +24,25 @@ export default function Contato() {
                             {/* Email */}
                             <div className="flex justify-between items-end border-b border-dashed border-[#0091FF]/30 pb-2 group hover:border-[#0091FF] transition-colors">
                                 <span className="text-[#0091FF] font-bold text-xl uppercase tracking-wider">Email</span>
-                                <span className="text-foreground/80 group-hover:text-[#0091FF] transition-colors text-right">test@gmail.com</span>
+                                <span className="text-black group-hover:text-[#0091FF] transition-colors text-right">test@gmail.com</span>
                             </div>
 
                             {/* Phone */}
                             <div className="flex justify-between items-end border-b border-dashed border-[#0091FF]/30 pb-2 group hover:border-[#0091FF] transition-colors">
                                 <span className="text-[#0091FF] font-bold text-xl uppercase tracking-wider">Telefone</span>
-                                <span className="text-foreground/80 group-hover:text-[#0091FF] transition-colors text-right">(62) 99999-9999</span>
+                                <span className="text-black group-hover:text-[#0091FF] transition-colors text-right">(62) 99999-9999</span>
                             </div>
 
                             {/* Website */}
                             <div className="flex justify-between items-end border-b border-dashed border-[#0091FF]/30 pb-2 group hover:border-[#0091FF] transition-colors">
                                 <span className="text-[#0091FF] font-bold text-xl uppercase tracking-wider">Site</span>
-                                <span className="text-foreground/80 group-hover:text-[#0091FF] transition-colors text-right">teste.com</span>
+                                <span className="text-black group-hover:text-[#0091FF] transition-colors text-right">teste.com</span>
                             </div>
 
                             {/* Instagram */}
                             <div className="flex justify-between items-end border-b border-dashed border-[#0091FF]/30 pb-2 group hover:border-[#0091FF] transition-colors">
                                 <span className="text-[#0091FF] font-bold text-xl uppercase tracking-wider">Instagram</span>
-                                <span className="text-foreground/80 group-hover:text-[#0091FF] transition-colors text-right">@teste</span>
+                                <span className="text-black group-hover:text-[#0091FF] transition-colors text-right">@teste</span>
                             </div>
                         </div>
 
@@ -51,22 +51,22 @@ export default function Contato() {
                             {/* Email */}
                             <div className="flex flex-col items-center space-y-2 border-b border-dashed border-[#0091FF]/30 pb-4">
                                 <span className="text-[#0091FF] font-bold text-xl uppercase tracking-wider">Email</span>
-                                <span className="text-foreground/80">teste@gmail.com</span>
+                                <span className="text-black">teste@gmail.com</span>
                             </div>
                             {/* Phone */}
                             <div className="flex flex-col items-center space-y-2 border-b border-dashed border-[#0091FF]/30 pb-4">
                                 <span className="text-[#0091FF] font-bold text-xl uppercase tracking-wider">Telefone</span>
-                                <span className="text-foreground/80">(62) 99999-9999</span>
+                                <span className="text-black">(62) 99999-9999</span>
                             </div>
                             {/* Website */}
                             <div className="flex flex-col items-center space-y-2 border-b border-dashed border-[#0091FF]/30 pb-4">
                                 <span className="text-[#0091FF] font-bold text-xl uppercase tracking-wider">Site</span>
-                                <span className="text-foreground/80">teste.com</span>
+                                <span className="text-black">teste.com</span>
                             </div>
                             {/* Youtube */}
                             <div className="flex flex-col items-center space-y-2 border-b border-dashed border-[#0091FF]/30 pb-4">
                                 <span className="text-[#0091FF] font-bold text-xl uppercase tracking-wider">Youtube</span>
-                                <span className="text-foreground/80">@teste</span>
+                                <span className="text-black">@teste</span>
                             </div>
                         </div>
                         <Link href="/contato" className="px-8 py-3   border border-[#0091FF] text-[#0091FF] hover:bg-[#0091FF] hover:text-white font-bold rounded-lg transition-colors duration-300">
