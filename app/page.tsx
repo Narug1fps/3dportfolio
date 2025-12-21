@@ -22,7 +22,7 @@ export default function Home() {
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
-  const pagesValue = isMobile ? 4.2 : 4.14;
+  const pagesValue = isMobile ? 3.9 : 4.14;
 
   return (
     <>
@@ -68,7 +68,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <footer className="w-full bg-black/40 backdrop-blur-md mt-75 md:mt-28 text-white/60 border-t border-white/5">
+                <footer className="w-full bg-black/40 backdrop-blur-md mt-70 md:mt-28 text-white/60 border-t border-white/5">
                   <div className="container mx-auto px-4 py-10">
                     <p className="text-[10px] md:text-sm text-center uppercase tracking-widest">
                       © {new Date().getFullYear()} Vitor Daltro. Todos os direitos reservados.
