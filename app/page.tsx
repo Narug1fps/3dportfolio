@@ -36,7 +36,7 @@ export default function Home() {
       }}>
         <Canvas camera={{ position: [0, 0, 10], fov: 50 }}>
           <Suspense fallback={null}>
-            <ScrollControls key={isMobile ? "mobile" : "desktop"} pages={4.14} damping={0.5}>
+            <ScrollControls key={isMobile ? "mobile" : "desktop"} pages={pagesValue} damping={0.5}>
               {/* 3D content that animates with scroll */}
               <ambientLight intensity={2.5} />
               <directionalLight position={[5, 5, 5]} intensity={1} />
