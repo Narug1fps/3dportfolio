@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Poppins, Montserrat } from "next/font/google";
 import "./globals.css";
+import Header from "./components/header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,16 +32,28 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="pt-br">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${montserrat.variable} antialiased bg-white`}
+        className="
+          min-h-screen
+          flex flex-col
+          antialiased
+          bg-white
+        "
       >
-        {children}
+        <Header />
+
+        {/* Compensa o header fixo */}
+        <main className="flex-1 pt-16 md:pt-20 ">
+          {children}
+        </main>
+
+
       </body>
     </html>
-  );
+  )
 }

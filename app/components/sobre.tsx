@@ -4,7 +4,7 @@ import { devilBreeze } from "../fonts"
 
 export default function Sobre() {
     return (
-        <section id="sobre" className="w-full min-h-screen relative flex items-center justify-center mt-40 md:mt-0 py-4 md:py-20 overflow-hidden">
+        <section id="sobre" className="w-full min-h-full relative flex items-center justify-center mt-40 md:mt-0 py-4 md:py-20 overflow-hidden">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
@@ -20,7 +20,7 @@ export default function Sobre() {
                             </div>
                         </div>
 
-                        <p className="text-black md:text-lg max-w-lg leading-relaxed font-montserrat">
+                        <p className="text-[#004273] md:text-lg max-w-lg leading-relaxed font-montserrat">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quasi placeat sint veritatis dolor quisquam consequuntur. Saepe doloremque corporis reprehenderit, quas mollitia nisi numquam voluptate ad doloribus ullam, ea eaque. Lorem
                         </p>
 

@@ -7,7 +7,7 @@ export default function Portfolio() {
     const projects = [1, 2, 3, 4] // Placeholder for project items
 
     return (
-        <section id="portfolio" className="w-full min-h-screen relative flex items-center justify-center pb-60 py-4 md:pt-20 overflow-hidden">
+        <section id="portfolio" className="w-full min-h-full relative flex items-center justify-center pb-60 py-4 md:pt-20 overflow-hidden">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
@@ -40,7 +40,7 @@ export default function Portfolio() {
                             ))}
                         </div>
 
-                        <Link href="/galeria" className="px-8 py-3 border border-[#0091FF] text-[#0091FF] hover:bg-[#0091FF] hover:text-white font-bold rounded-lg transition-colors duration-300">
+                        <Link href="/portfolio" className="px-8 py-3 border border-[#0091FF] text-[#0091FF] hover:bg-[#0091FF] hover:text-white font-bold rounded-lg transition-colors duration-300">
                             Ver todos os projetos
                         </Link>
                     </div>

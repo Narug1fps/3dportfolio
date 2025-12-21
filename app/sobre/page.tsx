@@ -35,7 +35,7 @@ export default function SobrePage() {
 
     return (
         <div className="light-theme">
-            <main className="min-h-screen bg-white" style={{
+            <main className="min-h-full bg-white" style={{
                 backgroundImage: 'url(/bg.png)',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
@@ -43,14 +43,14 @@ export default function SobrePage() {
                 backgroundBlendMode: 'overlay',
                 backgroundColor: 'rgba(255, 255, 255, 0.98)'
             }}>
-                <Header />
+
 
                 {/* Hero Section */}
                 <section className="pt-32 pb-20 px-4">
                     <div className="container mx-auto">
                         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
                             <span className="text-[#0091FF] font-bold tracking-widest uppercase text-sm mb-4 animate-fade-in">A Arte do Olhar</span>
-                            <h1 className={`${devilBreeze.className} text-black text-6xl sm:text-8xl md:text-9xl font-bold leading-none mb-8`}>
+                            <h1 className={`${devilBreeze.className} text-[#004273] text-6xl sm:text-8xl md:text-9xl font-bold leading-none mb-8`}>
                                 MINHA <span className="text-[#0091FF]">HISTÓRIA</span>
                             </h1>
                             <p className="text-gray-600 text-xl md:text-2xl font-medium leading-relaxed mb-12">
@@ -76,7 +76,7 @@ export default function SobrePage() {
                                                 <Heart className="w-6 h-6" />
                                             </div>
                                             <div>
-                                                <h4 className="font-bold text-black text-lg">Vitor Daltro</h4>
+                                                <h4 className="font-bold text-[#004273] text-lg">Vitor Daltro</h4>
                                                 <p className="text-gray-500 text-sm">Visual Storyteller</p>
                                             </div>
                                         </div>
@@ -86,7 +86,7 @@ export default function SobrePage() {
 
                             <div className="space-y-12">
                                 <div className="space-y-6">
-                                    <h2 className="text-4xl font-bold text-black leading-tight">Um olhar diferenciado para momentos únicos.</h2>
+                                    <h2 className="text-4xl font-bold text-[#004273] leading-tight">Um olhar diferenciado para momentos únicos.</h2>
                                     <p className="text-gray-600 text-lg leading-relaxed">
                                         Minha jornada na fotografia começou com uma câmera analógica e uma curiosidade infinita pelo mundo ao meu redor. Hoje, utilizo a tecnologia mais moderna para elevar cada ensaio ao nível de arte editorial.
                                     </p>
@@ -126,7 +126,7 @@ export default function SobrePage() {
                             {/* Skills */}
                             <div className="space-y-12">
                                 <div>
-                                    <h3 className="text-3xl font-bold text-black mb-4">Minhas Habilidades</h3>
+                                    <h3 className="text-3xl font-bold text-[#004273] mb-4">Minhas Habilidades</h3>
                                     <p className="text-gray-500">Desenvolvimento constante para entregar o melhor resultado visual.</p>
                                 </div>
 
@@ -134,7 +134,7 @@ export default function SobrePage() {
                                     {skills.map((skill, index) => (
                                         <div key={index} className="space-y-3">
                                             <div className="flex justify-between items-center px-1">
-                                                <div className="flex items-center gap-3 font-bold text-black uppercase tracking-widest text-sm">
+                                                <div className="flex items-center gap-3 font-bold text-[#004273] uppercase tracking-widest text-sm">
                                                     {skill.icon} {skill.name}
                                                 </div>
                                                 <span className="text-[#0091FF] font-bold">{skill.level}%</span>
@@ -153,7 +153,7 @@ export default function SobrePage() {
                             {/* Experience */}
                             <div className="space-y-12">
                                 <div>
-                                    <h3 className="text-3xl font-bold text-black mb-4 flex items-center gap-3">
+                                    <h3 className="text-3xl font-bold text-[#004273] mb-4 flex items-center gap-3">
                                         <Briefcase className="text-[#0091FF]" /> Trajetória
                                     </h3>
                                     <p className="text-gray-500">Uma evolução pautada na qualidade e no profissionalismo.</p>
@@ -165,7 +165,7 @@ export default function SobrePage() {
                                         <div key={index} className="relative pl-12 group">
                                             <div className="absolute left-0 top-1.5 w-6 h-6 bg-white border-4 border-[#0091FF] rounded-full z-10 group-hover:scale-125 transition-transform duration-300"></div>
                                             <span className="text-xs font-bold text-[#0091FF] uppercase tracking-widest mb-2 block">{item.year}</span>
-                                            <h4 className="text-xl font-bold text-black mb-1">{item.title}</h4>
+                                            <h4 className="text-xl font-bold text-[#004273] mb-1">{item.title}</h4>
                                             <p className="text-[#0091FF] text-sm font-bold mb-3">{item.company}</p>
                                             <p className="text-gray-600 leading-relaxed text-sm max-w-lg">
                                                 {item.description}
@@ -179,9 +179,9 @@ export default function SobrePage() {
                 </section>
 
                 {/* Footer Section */}
-                <footer className="w-full bg-gray-50/80 backdrop-blur-md text-gray-400 py-10 border-t border-gray-100">
-                    <div className="container mx-auto px-4">
-                        <p className="text-[10px] md:text-sm text-center uppercase tracking-widest font-bold">
+                <footer className="w-full bg-black/40 backdrop-blur-md text-white/60 border-t border-white/5">
+                    <div className="container mx-auto px-4 py-10">
+                        <p className="text-[10px] md:text-sm text-center uppercase tracking-widest">
                             © {new Date().getFullYear()} Vitor Daltro. Todos os direitos reservados.
                         </p>
                     </div>

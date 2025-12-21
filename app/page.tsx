@@ -47,7 +47,7 @@ export default function Home() {
                 <div className="w-screen">
                   {/* Hero Section */}
                   <div className="min-h-[50vh] md:h-screen flex flex-col items-center justify-start pt-10 md:pt-20 pointer-events-auto">
-                    <Header />
+
                     <div className={`${devilBreeze.className} mt-5 text-[#0091FF] text-[4em]  sm:text-[7em] md:text-[11em] font-[bold] relative text-center before:content-[attr(data-before)] before:absolute before:z-[-1] before:text-[#004273] before:top-[0.5em] before:inset-[0.66em_0_0_0]`}
                       data-before="GRAFic">PHOTO</div>
                   </div>
@@ -58,7 +58,7 @@ export default function Home() {
                   </div>
 
                   {/* Portfolio Section */}
-                  <div className="min-h-screen pointer-events-auto">
+                  <div className="min-h-full pointer-events-auto">
                     <Portfolio />
                   </div>
 
@@ -67,13 +67,15 @@ export default function Home() {
                     <Contato />
                   </div>
                 </div>
-                <footer className="w-full bg-black/40  backdrop-blur-md text-white/60  border-t border-white/5 pointer-events-auto">
+
+                <footer className="w-full bg-black/40 backdrop-blur-md mt-75 md:mt-28 text-white/60 border-t border-white/5">
                   <div className="container mx-auto px-4 py-10">
                     <p className="text-[10px] md:text-sm text-center uppercase tracking-widest">
                       © {new Date().getFullYear()} Vitor Daltro. Todos os direitos reservados.
                     </p>
                   </div>
                 </footer>
+
               </Scroll>
             </ScrollControls>
           </Suspense>

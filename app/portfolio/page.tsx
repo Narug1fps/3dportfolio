@@ -8,7 +8,7 @@ export default function Galeria() {
 
     return (
         <div className="bg-[url(/bg.png)] m-0 p-0 h-screen w-full bg-[#0091FF]/10 m-0 p-0 text-sm font-2 overflow-x-hidden overflow-y-auto">
-            <Header />
+
 
             <main className="container mx-auto px-4 py-32">
                 {/* Page Title */}
@@ -44,14 +44,13 @@ export default function Galeria() {
                 </div>
 
             </main>
-            <footer className="backdrop-blur-xl bg-black/20 text-white py-6">
-                <div className="container mx-auto flex flex-col items-center gap-6">
-                    <p className="text-sm text-center">
+            <footer className="w-full bg-black/40 backdrop-blur-md text-white/60 border-t border-white/5">
+                <div className="container mx-auto px-4 py-10">
+                    <p className="text-[10px] md:text-sm text-center uppercase tracking-widest">
                         © {new Date().getFullYear()} Vitor Daltro. Todos os direitos reservados.
                     </p>
                 </div>
             </footer>
-
         </div>
 
     )
