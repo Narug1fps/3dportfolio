@@ -22,7 +22,7 @@ export default function Home() {
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
-  const pagesValue = isMobile ? 5.5 : 4.14;
+  const pagesValue = isMobile ? 8 : 4.14;
 
   return (
     <>
