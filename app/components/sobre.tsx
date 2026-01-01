@@ -13,18 +13,18 @@ export default function Sobre() {
                         {/* Title with Overlapping Effect */}
                         <div className="relative">
                             <div
-                                className={`${devilBreeze.className} text-[#0091FF] text-4xl sm:text-6xl md:text-8xl font-bold relative z-10 before:content-[attr(data-before)] before:absolute before:z-[-1] before:text-[#004273] before:top-[0.05em] before:left-[0.05em] md:before:top-[0.1em] md:before:left-[0.1em] opacity-90`}
+                                className={`${devilBreeze.className} text-[#1a1a1a] text-4xl sm:text-6xl md:text-8xl font-bold relative z-10 before:content-[attr(data-before)] before:absolute before:z-[-1] before:text-[#666666] before:top-[0.05em] before:left-[0.05em] md:before:top-[0.1em] md:before:left-[0.1em] opacity-90`}
                                 data-before="SOBRE"
                             >
                                 SOBRE MIM
                             </div>
                         </div>
 
-                        <p className="text-[#004273] md:text-lg max-w-lg leading-relaxed font-montserrat">
+                        <p className="text-[#666666] md:text-lg max-w-lg leading-relaxed font-montserrat">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quasi placeat sint veritatis dolor quisquam consequuntur. Saepe doloremque corporis reprehenderit, quas mollitia nisi numquam voluptate ad doloribus ullam, ea eaque. Lorem
                         </p>
 
-                        <Link href="/sobre" className="px-8 py-3 bg-[#0091FF] hover:bg-[#007acc] text-white font-bold rounded-lg transition-colors duration-300">
+                        <Link href="/sobre" className="px-8 py-3 bg-[#1a1a1a] hover:bg-[#333333] text-white font-bold rounded-lg transition-colors duration-300">
                             Mais sobre mim
                         </Link>
                     </div>

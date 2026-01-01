@@ -36,7 +36,7 @@ export default function Home() {
       }}>
         <Canvas camera={{ position: [0, 0, 10], fov: 50 }}>
           <Suspense fallback={null}>
-            <ScrollControls key={isMobile ? "mobile" : "desktop"} pages={pagesValue} damping={0.5}>
+            <ScrollControls pages={pagesValue} damping={0.5}>
               {/* 3D content that animates with scroll */}
               <ambientLight intensity={2.5} />
               <directionalLight position={[5, 5, 5]} intensity={1} />
@@ -48,8 +48,8 @@ export default function Home() {
                   {/* Hero Section */}
                   <div className="min-h-[50vh] md:h-screen flex flex-col items-center justify-start pt-10 md:pt-20 pointer-events-auto">
 
-                    <div className={`${devilBreeze.className} mt-5 text-[#0091FF] text-[4em]  sm:text-[7em] md:text-[11em] font-[bold] relative text-center before:content-[attr(data-before)] before:absolute before:z-[-1] before:text-[#004273] before:top-[0.5em] before:inset-[0.66em_0_0_0]`}
-                      data-before="GRAFic">PHOTO</div>
+                    <div className={`${devilBreeze.className} mt-5 text-[#1a1a1a] text-[4em]  sm:text-[7em] md:text-[11em] font-[bold] relative text-center before:content-[attr(data-before)] before:absolute before:z-[-1] before:text-[#666666] before:top-[0.5em] before:inset-[0.66em_0_0_0]`}
+                      data-before="TETUre">ARCH</div>
                   </div>
 
                   {/* Sobre Section */}

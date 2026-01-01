@@ -28,9 +28,9 @@ export default function Header() {
     : "bg-white border-b border-transparent"
 
   const textStyles =
-    "text-[#004273] hover:text-[#0091FF] transition-all duration-300"
+    "text-[#666666] hover:text-[#1a1a1a] transition-all duration-300"
 
-  const logoStyles = "text-[#004273]"
+  const logoStyles = "text-[#666666]"
 
   return (
     <header
@@ -42,9 +42,9 @@ export default function Header() {
           {/* Logo */}
           <Link
             href="/"
-            className={`${logoStyles} text-xl md:text-2xl font-bold hover:text-[#0091FF] tracking-tighter`}
+            className={`${logoStyles} text-xl md:text-2xl font-bold hover:text-[#1a1a1a] tracking-tighter`}
           >
-            VITOR<span className="text-[#0091FF]">PHOTO</span>
+            ERICA<span className="text-[#1a1a1a]">FABIAN</span>
           </Link>
 
           {/* Desktop Menu */}
@@ -62,7 +62,7 @@ export default function Header() {
                   className={`${textStyles} font-medium text-sm uppercase tracking-widest relative group`}
                 >
                   {item}
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#0091FF] transition-all duration-300 group-hover:w-full" />
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#1a1a1a] transition-all duration-300 group-hover:w-full" />
                 </Link>
               )
             })}

@@ -24,7 +24,7 @@ export default function Portfolio() {
                         {/* Title */}
                         <div className="relative">
                             <div
-                                className={`${devilBreeze.className} text-[#0091FF] text-4xl sm:text-6xl md:text-8xl font-bold relative z-10 before:content-[attr(data-before)] before:absolute before:z-[-1] before:text-[#004273] before:top-[0.05em] before:left-[0.05em] md:before:top-[0.1em] md:before:left-[0.1em] opacity-90`}
+                                className={`${devilBreeze.className} text-[#1a1a1a] text-4xl sm:text-6xl md:text-8xl font-bold relative z-10 before:content-[attr(data-before)] before:absolute before:z-[-1] before:text-[#666666] before:top-[0.05em] before:left-[0.05em] md:before:top-[0.1em] md:before:left-[0.1em] opacity-90`}
                                 data-before="PORTFOLIO"
                             >
                                 PORTFOLIO
@@ -34,13 +34,13 @@ export default function Portfolio() {
                         {/* Image Gallery Grid */}
                         <div className="grid grid-cols-2 gap-4 w-full">
                             {projects.map((item) => (
-                                <div key={item} className="aspect-square bg-[#0091FF]/10 border border-[#0091FF]/30 rounded-lg flex items-center justify-center hover:bg-[#0091FF]/20 transition-all cursor-pointer">
-                                    <span className="text-[#0091FF]/50 font-bold">Projeto {item}</span>
+                                <div key={item} className="aspect-square bg-[#1a1a1a]/10 border border-[#1a1a1a]/30 rounded-lg flex items-center justify-center hover:bg-[#1a1a1a]/20 transition-all cursor-pointer">
+                                    <span className="text-[#1a1a1a]/50 font-bold">Projeto {item}</span>
                                 </div>
                             ))}
                         </div>
 
-                        <Link href="/portfolio" className="px-8 py-3 border border-[#0091FF] text-[#0091FF] hover:bg-[#0091FF] hover:text-white font-bold rounded-lg transition-colors duration-300">
+                        <Link href="/portfolio" className="px-8 py-3 border border-[#1a1a1a] text-[#1a1a1a] hover:bg-[#1a1a1a] hover:text-white font-bold rounded-lg transition-colors duration-300">
                             Ver todos os projetos
                         </Link>
                     </div>
